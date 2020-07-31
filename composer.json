@@ -1,0 +1,24 @@
+{
+    "name": "lyue/framework",
+    "description": "lyue framework core",
+    "version": "1.0.0",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lyue\\":"src/"
+        },
+        "files":[
+            "src/helper.php"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "linyue",
+            "email": "769353695@qq.com"
+        }
+
+    ]
+}
